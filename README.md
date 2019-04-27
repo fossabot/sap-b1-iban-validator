@@ -1,6 +1,6 @@
 # IBAN Validator for SAP Business One [Microsoft SQL Server only!]
 
-*(Microsoft SQLServer Version only!)** This tool was build to catch wrong IBANs from a SAP Business One ERP Instance.
+*(Microsoft SQLServer Version only!)* This tool was build to catch wrong IBANs from a SAP Business One ERP Instance.
 
 ## Installation
 
