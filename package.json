@@ -1,0 +1,35 @@
+{
+  "name": "sap-b1-iban-validator",
+  "version": "1.0.0",
+  "description": "IBAN Validator for SAP Business One [Microsoft SQL Server]",
+  "main": "dist/index.js",
+  "repository": "https://github.com/gruselhaus/sap-b1-iban-validator.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "sap",
+    "business one",
+    "typescript",
+    "node",
+    "iban"
+  ],
+  "author": "Nico Finkernagel",
+  "license": "MIT",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/iban": "0.0.30",
+    "@types/lodash": "^4.14.123",
+    "@types/mssql": "^4.0.13",
+    "@types/node": "^11.13.7",
+    "dotenv": "^7.0.0",
+    "iban": "0.0.12",
+    "lodash": "^4.17.11",
+    "mssql": "^5.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
+}
