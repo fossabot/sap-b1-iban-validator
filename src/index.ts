@@ -1,12 +1,12 @@
-import "./env";
 import * as fs from "fs";
+import { get_connection_string } from "./config";
 import * as IBAN from "iban";
 import { sortBy } from "lodash";
 const sql = require("mssql");
 
 (async () => {
   try {
-    await sql.connect(process.env.CONNECTION_STRING);
+    await sql.connect(get_connection_string());
     const sql_string = fs.readFileSync("query.sql", "utf8");
     const result = await sql.query(sql_string);
     console.log(`Number of entries found: ${result.recordset.length}`);
@@ -27,8 +27,7 @@ const sql = require("mssql");
     }
     console.log(`Number of matches: ${matches.length}`);
     const output = await sortBy(matches, "CardName");
-    fs.writeFileSync("output.json", JSON.stringify(output));
-    console.log("File saved!");
+    console.table(output);
     process.exit(0);
   } catch (err) {
     throw new Error(err);
