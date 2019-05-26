@@ -17,7 +17,7 @@ SELECT
   T0.CardName,
   T0.DflIBAN,
   T0.ValidFor,
-  T0.FrozenComm,
+  ISNULL(T0.FrozenComm,'')[FrozenComm],
   (SELECT
     S0.PymntGroup
   FROM
