@@ -21,9 +21,9 @@
   "dependencies": {
     "@types/dotenv": "^6.1.1",
     "@types/iban": "0.0.30",
-    "@types/lodash": "^4.14.124",
-    "@types/mssql": "^4.0.13",
-    "@types/node": "^11.13.10",
+    "@types/lodash": "^4.14.132",
+    "@types/mssql": "^4.0.14",
+    "@types/node": "^11.13.11",
     "dotenv": "^7.0.0",
     "iban": "0.0.12",
     "lodash": "^4.17.11",
