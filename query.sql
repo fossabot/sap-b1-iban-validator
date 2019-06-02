@@ -29,3 +29,4 @@ FROM
 WHERE 
   T0.DflIBAN IS NOT NULL
   AND T0.DflIBAN <> ''
+  AND T0.GroupNum NOT IN (-1, 31)
