@@ -23,7 +23,7 @@
     "@types/iban": "0.0.30",
     "@types/lodash": "^4.14.139",
     "@types/mssql": "^4.3.1",
-    "@types/node": "^12.7.5",
+    "@types/node": "^12.7.7",
     "dotenv": "^8.1.0",
     "iban": "0.0.12",
     "lodash": "^4.17.15",
