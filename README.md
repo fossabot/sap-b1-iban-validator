@@ -1,4 +1,6 @@
 # IBAN Validator for SAP Business One [Microsoft SQL Server only!]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgruselhaus%2Fsap-b1-iban-validator.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgruselhaus%2Fsap-b1-iban-validator?ref=badge_shield)
+
 
 *(Microsoft SQLServer Version only!)* This tool was build to catch wrong IBANs from a SAP Business One ERP Instance.
 
@@ -28,3 +30,7 @@ Feel free to submit issues and enhancement requests.
 5. Submit a **Pull request** so that we can review your changes
 
 NOTE: Be sure to merge the latest from "upstream" before making a pull request!
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgruselhaus%2Fsap-b1-iban-validator.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgruselhaus%2Fsap-b1-iban-validator?ref=badge_large)
